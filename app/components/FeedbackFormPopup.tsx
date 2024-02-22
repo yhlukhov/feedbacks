@@ -48,7 +48,7 @@ export function FeedbackFormPopup({ onClose }: Props) {
             </div>
             <div className='w-full mt-4 flex justify-center'>
               <Button primary onClick={() => {}}>
-                Create post
+                Create new post
               </Button>
             </div>
           </div>
