@@ -18,7 +18,7 @@ export function Popup({ title, onClose, children }: Props) {
         onClick={(e) => e.stopPropagation()}
       >
         <div className='relative flex justify-center pb-2 border-b-2 border-slate-300'>
-          <div className='md:hidden absolute top-0 left-0' onClick={onClose}>
+          <div className='md:hidden absolute top-40 left-40' onClick={onClose}>
             <BackBtn />
           </div>
           <h2>{title}</h2>
