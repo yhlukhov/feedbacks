@@ -1,3 +1,5 @@
+// Components folder exports
+
 export * from './FeedbackFormPopup'
 export * from './FeedbackItemPopup'
 export * from './FeedbackItemComments'
