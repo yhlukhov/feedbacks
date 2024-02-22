@@ -45,7 +45,6 @@ export function FeedbackFormPopup({ onClose }: Props) {
             />
             <div className='mt-3'>
               <Button onClick={() => {}}>Attach files</Button>
-              <Button onClick={() => {}}>Attach MORE files</Button>
             </div>
             <div className='w-full mt-4 flex justify-center'>
               <Button primary onClick={() => {}}>
