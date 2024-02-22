@@ -27,7 +27,7 @@ export function Popup({ title, onClose, children }: Props) {
             onClick={onClose}
           >
             <CloseBtn />
-            <CloseBtn />
+            <BackBtn />
           </div>
         </div>
         <>{children}</>
