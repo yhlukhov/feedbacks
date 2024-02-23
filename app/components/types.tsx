@@ -1,3 +1,5 @@
+// Types
+
 export type TFeedbackItem = {
   id?: string
   title: string
