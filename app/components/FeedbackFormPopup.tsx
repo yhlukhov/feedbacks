@@ -3,6 +3,7 @@ import { useFormik } from 'formik'
 import { BackBtn, CloseBtn } from './Icons'
 import { Button } from './Buttons'
 import { Popup } from './Popup'
+import { title } from 'process'
 
 type Props = {
   onClose: () => void
@@ -47,7 +48,7 @@ export function FeedbackFormPopup({ onClose }: Props) {
               <Button onClick={() => {}}>Attach files</Button>
             </div>
             <div className='w-full mt-4 flex justify-center'>
-              <Button primary onClick={() => {}}>
+              <Button primary submit disabled={!values.title || !values.details}>
                 Create new post
               </Button>
             </div>
