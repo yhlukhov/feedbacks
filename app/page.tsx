@@ -42,12 +42,12 @@ export default function Home() {
       </div>
       <div className='bg-gray-100 px-6 py-4 flex'>
         <div className='grow'></div>
-        <Button onClick={() => setShowFeedbackPopupForm(true)}>
+        <Button primary onClick={() => setShowFeedbackPopupForm(true)}>
           Make a suggestion
         </Button>
       </div>
       <div className='px-8'>
-        {feedbacks.map(feedback => <FeedbackItem item={feedback} />)}
+        {feedbacks.map((feedback, index) => <FeedbackItem item={feedback} key={feedback.id || index} />)}
       </div>
       {showFeedbackPopupForm &&
         createPortal(
