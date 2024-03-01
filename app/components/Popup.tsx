@@ -14,7 +14,7 @@ export function Popup({ title, onClose, children }: Props) {
       onClick={onClose}
     >
       <div
-        className='w-full h-full md:w-3/5 lg:w-2/5 md:h-fit md:mt-20 px-4 py-3 md:rounded-lg bg-slate-100/95'
+        className='w-full h-full md:w-3/5 lg:w-2/5 md:h-fit md:mt-20 px-4 py-3 pb-2 md:rounded-lg bg-slate-100/95'
         onClick={(e) => e.stopPropagation()}
       >
         <div className='relative flex justify-center pb-2 border-b-2 border-slate-300'>

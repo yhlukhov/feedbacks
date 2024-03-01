@@ -1,0 +1,79 @@
+@keyframes ldio-8fagg7xciyf {
+  0% {
+    opacity: 1
+  }
+
+  100% {
+    opacity: 0
+  }
+}
+
+.ldio-8fagg7xciyf div {
+  left: 40.5px;
+  top: 6px;
+  position: absolute;
+  animation: ldio-8fagg7xciyf linear 1s infinite;
+  background: #bdbdbd;
+  width: 19px;
+  height: 16px;
+  border-radius: 7.22px / 7.22px;
+  transform-origin: 9.5px 44px;
+}
+
+.ldio-8fagg7xciyf div:nth-child(1) {
+  transform: rotate(0deg);
+  animation-delay: -0.8333333333333334s;
+  background: #bdbdbd;
+}
+
+.ldio-8fagg7xciyf div:nth-child(2) {
+  transform: rotate(60deg);
+  animation-delay: -0.6666666666666666s;
+  background: #bdbdbd;
+}
+
+.ldio-8fagg7xciyf div:nth-child(3) {
+  transform: rotate(120deg);
+  animation-delay: -0.5s;
+  background: #bdbdbd;
+}
+
+.ldio-8fagg7xciyf div:nth-child(4) {
+  transform: rotate(180deg);
+  animation-delay: -0.3333333333333333s;
+  background: #bdbdbd;
+}
+
+.ldio-8fagg7xciyf div:nth-child(5) {
+  transform: rotate(240deg);
+  animation-delay: -0.16666666666666666s;
+  background: #bdbdbd;
+}
+
+.ldio-8fagg7xciyf div:nth-child(6) {
+  transform: rotate(300deg);
+  animation-delay: 0s;
+  background: #bdbdbd;
+}
+
+.loadingio-spinner-spinner-y8d846mvb2i {
+  width: 19px;
+  height: 19px;
+  display: inline-block;
+  overflow: hidden;
+  background: none;
+}
+
+.ldio-8fagg7xciyf {
+  width: 100%;
+  height: 100%;
+  position: relative;
+  transform: translateZ(0) scale(0.19);
+  backface-visibility: hidden;
+  transform-origin: 0 0;
+  /* see note above */
+}
+
+.ldio-8fagg7xciyf div {
+  box-sizing: content-box;
+}
